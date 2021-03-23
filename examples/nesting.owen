@@ -1,0 +1,38 @@
+# Nesting can get quite out of hand.
+aNestedArray=[
+    # Children support comments
+    [
+        [
+            [
+                [
+                    [
+                        [
+                            [
+                                [
+                                    [
+                                        # Comments are allowed at any level
+                                        deep
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
+
+# Indentation is entirely optional in both objects and arrays.
+# Closing brackets/braces can appear on the same line to help condense OWEN files.
+# Opening brackets/braces CANNOT appear on the same line.
+aNestedObject={
+section1={
+section2={
+
+# Whitespace around the '=' works in nested objects as well.
+section3 = {
+    key1=value1
+    key2=value2
+    key3                                = value3
+}}}}

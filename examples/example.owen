@@ -1,0 +1,20 @@
+# An example of a unicode character
+myFavoriteEmoji=😃
+
+anExampleArray=[
+    # Values can have comments
+    a wonderful value
+
+    # Blank lines can make things easier to read
+    several values \
+    in a row can be \
+    separated using \
+    backslashes.
+    This line is its own value
+
+    Blank lines don't require comments
+]
+
+anEmptyValue=
+anotherEmptyValue={}
+aThirdAndFinalEmptyValue=[]

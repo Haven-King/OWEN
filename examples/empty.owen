@@ -1,0 +1,3 @@
+# An empty file is fine
+# even if there are just comments in it.
+# It should be parsed as a single empty value.
